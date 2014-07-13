@@ -21,6 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
        getsolve = getsolve)
 }
 
+
+
 ## This function computes the inverse of the special "matrix"
 ## returned by the above function. If the inverse has already
 ## been calculated (and the matrix has not changed), then the
@@ -37,6 +39,8 @@ cacheSolve <- function(x, ...) {
   x$setsolve(m)
   m  
 }
+
+
 
 
 #########
